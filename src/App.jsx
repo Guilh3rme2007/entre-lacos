@@ -18,7 +18,7 @@ function App() {
   )
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="app-root" data-contrast={highContrast} style={appStyle}>
         <Routes>
           <Route path="/" element={<LandingPage setFontScale={setFontScale} setHighContrast={setHighContrast} />} />

@@ -35,6 +35,14 @@ Este projeto apresenta uma demonstração funcional da plataforma, incluindo:
    http://127.0.0.1:4173
    ```
 
+## Publicação
+
+O projeto é publicado automaticamente no GitHub Pages após cada push para `main`:
+
+https://guilh3rme2007.github.io/entre-lacos/
+
+Para habilitar na primeira publicação, em **Settings → Pages**, selecione **GitHub Actions** como fonte de build.
+
 ## Scripts disponíveis
 
 ```bash
